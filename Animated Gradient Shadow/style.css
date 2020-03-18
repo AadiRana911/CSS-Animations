@@ -10,7 +10,8 @@ body{
     height: 250px;
     background: linear-gradient(0deg, #000, #262626);
 }
-.shadow:before{
+.shadow:before,
+.shadow:after{
     content: '';
     position: absolute;
     top: -2px;
@@ -22,12 +23,15 @@ body{
     z-index: -1;
     animation: animate 20s linear infinite;
 }
+.shadow::after{
+    filter: blur(15px);
+}
 @keyframes animate{
     0%{
         background-position: 0 0;
     }
     50%{
-        background-position: 400% 0;
+        background-position: 300% 0;
     }
     100%{
         background-position: 0 0;
