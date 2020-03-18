@@ -39,6 +39,15 @@ body{
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
+.face:active::before{
+    top: 210px;
+    width: 150px;
+    height: 70px;
+    background: rgba(181, 119, 0, 0);
+    border: solid 15px #b57700;
+    border-color: #b57700 transparent transparent;
+    border-radius: 50%/70px 70px 0 0;
+}
 .eyes{
     position: relative;
     top: -40px;
