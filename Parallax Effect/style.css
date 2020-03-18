@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.parallax-container{
+    height: 1000vh;
+}
+section{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .content{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+img{
+    height: 170%;
+    width: auto;
+}

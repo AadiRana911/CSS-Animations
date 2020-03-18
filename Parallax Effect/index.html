@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Neon Light Button</title>
-        <meta http-equiv="refresh" content="5">
+        <title>Parallax Scrolling with Materialize</title>
+        <!-- <meta http-equiv="refresh" content="5"> -->
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     </head>
     <body>
+        <div class="parallax-container">
+            <div class="parallax"><img src="images/img1.jpg"></div>
+        </div>
+        <section>
+            <div class="content">
+                <h1>Parallax Scrolling</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia unde accusantium necessitatibus alias blanditiis amet accusamus illo possimus veritatis reiciendis porro ea deserunt autem explicabo similique, minus repellendus provident facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid libero perspiciatis enim doloribus alias eum, facilis minima soluta, illum fuga iste non ullam excepturi? Minima eveniet iure temporibus maiores reprehenderit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta facilis autem iure est accusantium? Velit error officia, sequi nesciunt magni ipsam! Accusantium assumenda atque magnam molestias! Dicta sunt minima cum.</p>  
+            </div>
+        </section>
+        <div class="parallax-container">
+            <div class="parallax"><img src="images/img2.jpg"></div>
+        </div>
+        <section>
+            <div class="content">
+                <h1>Parallax Scrolling</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio tempore minima ut explicabo ea ex sunt molestias iusto magnam temporibus neque, molestiae dignissimos iure saepe natus. Quisquam blanditiis ducimus dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid libero perspiciatis enim doloribus alias eum, facilis minima soluta, illum fuga iste non ullam excepturi? Minima eveniet iure temporibus maiores reprehenderit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta facilis autem iure est accusantium? Velit error officia, sequi nesciunt magni ipsam! Accusantium assumenda atque magnam molestias! Dicta sunt minima cum.</p>
+            </div>
+        </section>
+        <div class="parallax-container">
+            <div class="parallax"><img src="images/img3.jpg"></div>
+        </div>
+        <section>
+            <div class="content">
+                <h1>Parallax Scrolling</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique amet voluptatum necessitatibus praesentium voluptatem, atque nihil aspernatur dicta quia enim harum magni iusto accusamus totam nam quas cum exercitationem quibusdam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid libero perspiciatis enim doloribus alias eum, facilis minima soluta, illum fuga iste non ullam excepturi? Minima eveniet iure temporibus maiores reprehenderit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta facilis autem iure est accusantium? Velit error officia, sequi nesciunt magni ipsam! Accusantium assumenda atque magnam molestias! Dicta sunt minima cum.</p>              
+            </div>
+        </section>
+        <div class="parallax-container">
+            <div class="parallax"><img src="images/img4.jpg"></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.parallax').parallax();
+            });
+        
+        </script>
     </body>
-    
 </html>
