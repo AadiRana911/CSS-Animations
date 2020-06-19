@@ -28,7 +28,7 @@ body{
     border-bottom-left-radius: 50px;
 }
 .heart:hover:before{
-    background: #e22c2c;
+    background: #ff3e3e;
     transform: rotate(450deg) translateY(100px);
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
